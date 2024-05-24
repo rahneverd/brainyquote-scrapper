@@ -1,0 +1,31 @@
+{
+  "name": "brainyquote-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/bin/index.js",
+  "type": "module",
+  "bin": "app/bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahneverd/brainyquote-scrapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahneverd/brainyquote-scrapper/issues"
+  },
+  "homepage": "https://github.com/rahneverd/brainyquote-scrapper#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12"
+  }
+}
